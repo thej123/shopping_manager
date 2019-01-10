@@ -1,0 +1,35 @@
+{
+  "name": "shopping_manager_backend",
+  "version": "1.0.0",
+  "description": "Using RESTful Apis, Mongoose Middleware and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thej123/shopping_manager.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NodeJS",
+    "Mongoose",
+    "Middleware",
+    "MongoDB",
+    "Salesforce",
+    "Big",
+    "Data"
+  ],
+  "author": "Thej Kodiyat, Dipeshkumar Jagwani, Shrenik, Jayraj, Anusha, Jancy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thej123/shopping_manager/issues"
+  },
+  "homepage": "https://github.com/thej123/shopping_manager#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9"
+  }
+}
