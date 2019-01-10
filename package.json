@@ -1,0 +1,16 @@
+{
+  "name": "nodeServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd shopping_manager_Backend && node server.js\" \"cd shopping_manager_Frontend && cd shopping_manager && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
